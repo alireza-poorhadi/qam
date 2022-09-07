@@ -1,0 +1,22 @@
+{
+    "name": "alireza_pourhadi/micro7",
+    "description": "This is an MVC microframework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [{
+        "name": "Alireza Pourhadi",
+        "email": "alireza_pourhadi@yahoo.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "catfan/medoo": "^2.1",
+        "hekmatinasser/verta": "^1.12",
+        "fakerphp/faker": "^1.16"
+    }
+}
